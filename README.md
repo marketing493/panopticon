@@ -19,6 +19,10 @@ The one-stop hub for competitive intelligence at Impact Analytics. A single, sel
 5. **The console.** Launch cards for all five tools. The page pings each tool when it loads, so sleeping Render servers start waking before anyone clicks.
 6. **Command palette.** Press `Cmd K` (Mac) or `Ctrl K` (Windows) anywhere to jump to a tool, play or section.
 
+## Light version (experiment)
+
+`light.html` is the same page on the IA Off-White background, with Black text and Impact Blue accents. The console band stays Impact Blue and the footer uses the full-color IA logo. Open it next to `index.html` to compare. To make it the main page, rename it to `index.html`.
+
 ## Deploy
 
 The page has no build step and no dependencies. Fonts load from Google Fonts. The logos are embedded.
