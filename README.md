@@ -19,9 +19,11 @@ The one-stop hub for competitive intelligence at Impact Analytics. A single, sel
 5. **The console.** Launch cards for all five tools. The page pings each tool when it loads, so sleeping Render servers start waking before anyone clicks.
 6. **Command palette.** Press `Cmd K` (Mac) or `Ctrl K` (Windows) anywhere to jump to a tool, play or section.
 
-## Light version (experiment)
+## Light and dark versions
 
-`light.html` is the same page on the IA Off-White background, with Black text and Impact Blue accents. The console band stays Impact Blue and the footer uses the full-color IA logo. Open it next to `index.html` to compare. To make it the main page, rename it to `index.html`.
+`index.html` is the default. It uses the IA Off-White background, with Black text and Impact Blue accents. The console band is Impact Blue and the footer uses the full-color IA logo.
+
+`dark.html` is the same page on a Black background, with the white IA logo in the footer. To make it the default again, swap the two file names.
 
 ## Deploy
 
@@ -45,7 +47,7 @@ Any other static host works too. Upload `index.html`.
 
 ## Editing
 
-* **Change a tool URL or one-liner:** search `index.html` for the old URL or text and replace every match. Each tool appears in its chapter, its console card, the footer and the `INSTRUMENTS` list in the script.
+* **Change a tool URL or one-liner:** search `index.html` and `dark.html` for the old URL or text and replace every match. Each tool appears in its chapter, its console card, the footer and the `INSTRUMENTS` list in the script.
 * **Add or change a play:** edit the `PLAYS` list in the script. `path` uses instrument positions, from 0 (RivaLens) to 4 (London Venue RFP).
 * The page sets `noindex, nofollow` so search engines skip it. Remove that meta tag if the page should be public.
 
@@ -53,5 +55,5 @@ Any other static host works too. Upload `index.html`.
 
 * Colors: Impact Blue, Off-White, Black, White, Grays, Data and Intelligence Blue (the only solution color used) and Accent Orange for live signals only.
 * Type: Spectral Light (the Google alternate for ABC Otto) for headlines, Inter Tight for everything else.
-* Logo: the blue logo mark in the nav and the white primary logo in the footer, both above minimum size.
+* Logo: the blue logo mark in the nav and the full-color primary logo in the footer (the white version in `dark.html`), both above minimum size.
 * Copy follows the IA voice rules. It has no em or en dashes and no invented statistics. The visuals inside each chapter are marked as illustrative.
